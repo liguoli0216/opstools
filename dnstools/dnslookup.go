@@ -6,13 +6,6 @@ import (
 	"strings"
 )
 
-package dnstools
-
-import (
-"errors"
-"net"
-"strings"
-)
 
 type Record struct {
 	Domain     string
